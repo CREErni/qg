@@ -87,5 +87,5 @@ jobs:
   display-name:
     runs-on: ubuntu-latest
     steps:
-      - name: Display Name
+      - name: Carl Ryle Escaño
         run: echo "Carl Ryle Escaño!!!"
