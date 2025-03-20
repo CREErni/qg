@@ -71,6 +71,9 @@ jobs:
       - name: Build Project
         run: npm run build --verbose
 
+      - name: Install zip utility
+        run: sudo apt-get install -y zip
+
       - name: Save Build Artifacts
         run: zip -r build-artifacts.zip dist/
         continue-on-error: true
