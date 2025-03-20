@@ -52,7 +52,7 @@ jobs:
         run: npm install
 
       - name: Run Unit Tests
-        run: npm run test -- --watch=false --code-coverage
+        run: npm run test -- --watch=false --coverage
 
   build:
     runs-on: ubuntu-latest
