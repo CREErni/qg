@@ -69,7 +69,7 @@ jobs:
         run: npm install
 
       - name: Build Project
-        run: npm run build
+        run: npm run build --verbose
 
       - name: Save Build Artifacts
         run: zip -r build-artifacts.zip dist/
